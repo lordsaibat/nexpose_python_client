@@ -8,9 +8,11 @@ After the scan completes an ad hoc report is generated and save to the directory
 Only tested with Nexpose commercial edition. 
 
 
-nexpose.py -i <IP> -x <Nexpose IP> -u <Nexpose username> -p <Nexpose password> 
-or 
-nexpose.py -l <file with IPs> -x <Nexpose IP> -u <Nexpose username> -p <Nexpose password>
+nexpose.py -i "IP" -x "Nexpose IP" -u "Nexpose username" -p "Nexpose password" 
+
+or
+
+nexpose.py -l "file with IPs" -x "Nexpose IP" -u "Nexpose username" -p "Nexpose password"
                                
 -i or --ip                  IP to scan. REQUIRED
 
